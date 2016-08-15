@@ -1,0 +1,13 @@
+if(eq.isEmpty()) {
+                    visor.setText(visor.getText() + string);
+                    eq.add(string);
+                    break;
+                }
+                if(isDouble(eq.get(eq.size() - 1))){
+                    visor.setText(visor.getText() + string);
+                    if (!va.equals("")) {
+                        eq.add(va);
+                    }
+                    eq.add(string);
+                    va = "";
+                }
